@@ -1,0 +1,53 @@
+@font-face{
+    font-family: 'libel';
+    src: url('./fonts/libelsuit.woff');
+    font-style: normal;
+    font-weight: normal;
+    
+}
+.navbar{
+    font-family: 'libel';
+    font-size: 1.5rem;
+    color: white;
+
+}
+
+.navbar-brand{
+    font-size: 2rem;
+}
+
+#social a img{
+    width: 35px;
+    height: 35px;
+}
+
+.jumbotron{
+    background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url(../assets/portada.jpg)  ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    text-shadow: blanchedalmond;
+}
+
+.jumbotron p{
+    font-weight: normal;
+   font-size: 1.5rem;
+   
+}
+
+
+/*Resposive*/
+
+
+@media (max-width: 1234px){
+
+    #technologias{
+        justify-content: center;
+    }
+   
+    #technologias img{
+        width: 10%;
+        height:10% ;
+    }
+}
